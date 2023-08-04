@@ -1,13 +1,9 @@
 {
   "name": "bmc-website",
   "version": "1.0",
-  "homepage": "https://bmcarregosa.github.io/website",
+  "homepage": "https://bmcarregosa.github.io",
   "description": "Banda de Música de Carregosa",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/creativetimofficial/argon-design-system-react.git"
-  },
   "keywords": [
     "react",
     "reactjs",

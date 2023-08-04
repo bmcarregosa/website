@@ -91,7 +91,7 @@ class DemoNavbar extends React.Component {
                     <i className="ni ni-collection d-lg-none mr-1" />
                     Maestro
                   </NavLink>
-                  <NavLink to="/landing-page" tag={Link}>
+                  <NavLink to="/profile-page" tag={Link}>
                     <i className="ni ni-collection d-lg-none mr-1" />
                     Orgãos Sociais
                   </NavLink>
