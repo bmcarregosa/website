@@ -74,7 +74,7 @@ class Profile extends React.Component {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-4-800x800.jpg")}
+                            src={require("assets/img/bmc/maestro_1x1.jpg")}
                           />
                         </a>
                       </div>
@@ -105,25 +105,11 @@ class Profile extends React.Component {
                       </div>
                     </Col>
                     <Col className="order-lg-1" lg="4">
-                      <div className="card-profile-stats d-flex justify-content-center">
-                        <div>
-                          <span className="heading">22</span>
-                          <span className="description">Friends</span>
-                        </div>
-                        <div>
-                          <span className="heading">10</span>
-                          <span className="description">Photos</span>
-                        </div>
-                        <div>
-                          <span className="heading">89</span>
-                          <span className="description">Comments</span>
-                        </div>
-                      </div>
                     </Col>
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
+                      Valter Palma{" "}
                       <span className="font-weight-light">, 27</span>
                     </h3>
                     <div className="h6 font-weight-300">
@@ -143,11 +129,23 @@ class Profile extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                        Valter Osório Palma natural de Nogueira (Vila Real) nasceu em 1985. Iniciou os seus estudos na Banda Musical de Nogueira com sete anos. Ingressou no Conservatório de Música de Vila Real na classe de Clarinete com o professor Luís Santos onde concluiu o curso básico com a nota de exame de 20 valores. Ingressa posteriormente na Escola Superior de Música e Artes do Espetáculo (ESMAE), onde obteve a Licenciatura em Clarinete na classe do professor Nuno Pinto. 
+
+                        Participou em Masterclasses em Portugal e Espanha com os professores António Saiote, Michel Arrignon, Thomas Muller, Juan Ferrer, Nuno Pinto, Carlos Alves, José Ricardo Freitas, Luís Santos, Tiago Abrantes, Etienne Lamaison, Vitor Pereira, Valdemar Rodrigues, entre outros. 
+
+                        Ao nível de música de câmara apresentou-se em várias formações tendo como professores: Luís Santos, Nuno Pinto, Vítor Pereira, José Parra, Sofia Lourenço, entre outros. 
+
+                        Representou a cidade de Vila Real na Mostra Musical do Eixo Atlântico onde foi finalista na categoria solista e obteve o 1º prémio na categoria de música de câmara. 
+                        Em 2012 foi premiado com o 2º Prémio na classe sénior de clarinete no concurso internacional "Terras de La Sallete". 
+
+                        Colaborou com a Filarmonia das Beiras, Orquestra Yduko, Sinfonieta da Esmae, Orquestra Ligeira «Douro Cultural» Big Band, Ensemble da Escola Internacional de Música da Fundação Príncipe das Astúrias. 
+
+                        Desempenha as funções de Maestro e Diretor Artístico na Banda Filarmónica de São Mamede de Ribatua e Maestro da Orquestra Juvenil da escola de música da banda desde Outubro de 2009, onde gravou um cd e participou em concursos e festivais em Portugal e em Espanha, dirigindo em grandes salas de Portugal como Europarque e Casa da Música. 
+
+                        Tem frequentado vários estágios de direcção na qual teve a oportunidade de dirigir o I e II Estágios da Banda Distrital de Vila Real, Banda Militar do Porto, entre outras. 
+
+                        É aluno de Direção Musical na Academia Portuguesa de Banda tendo como professor o maestro Paulo Martins. 
+                        É membro fundador do ensemble de clarinetes "VR Clarinete Ensemble".
                         </p>
                         <a href="#pablo" onClick={(e) => e.preventDefault()}>
                           Show more
