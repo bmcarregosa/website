@@ -2,7 +2,6 @@ import React from "react";
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
 import {
-  Badge,
   Button,
   Card,
   CardBody,
@@ -27,9 +26,6 @@ class Landing extends React.Component {
             {/* shape Hero */}
             <section className="section section-lg section-shaped pb-250">
               <div className="shape shape-style-1 shape-default">
-                <span />
-                <span />
-                <span />
                 <span />
                 <span />
                 <span />
@@ -75,7 +71,7 @@ class Landing extends React.Component {
                             Agenda
                           </h6>
                           <p className="text-justify description mt-3">
-                            Calendário das saídas banda. Concertos, romarias e outros eventos. <br></br><br></br>
+                            Calendário de romarias, festividades, concertos e outros eventos.
                           </p>
                           <Button
                             className="mt-4"
@@ -95,10 +91,10 @@ class Landing extends React.Component {
                             <div className="icon icon-shape icon-shape-success rounded-circle m-2">
                               <i className="ni ni-hat-3" />
                             </div>
-                            Escola
+                            Escola de Música
                           </h6>
                           <p className="text-justify description mt-3">
-                            A Escola de Música Sebastião Azevedo tem como objetivo formar jovens e adultos na área da música.
+                            A Escola de Música Sebastião Azevedo dedica-se à formação de jovens músicos.
                           </p>
                           <Button
                             className="mt-4"
@@ -121,7 +117,7 @@ class Landing extends React.Component {
                             Contactos
                           </h6>
                           <p className="text-justify description mt-3">
-                            Valorizamos o seu interesse. Entre em contacto para colaborar ou esclarecer dúvidas ou colaborar.
+                            Valorizamos o seu interesse. Entre em contacto para mais esclarecimentos.
                           </p>
                           <Button
                             className="mt-4"
@@ -147,12 +143,12 @@ class Landing extends React.Component {
                   <img
                     alt="..."
                     className="img-fluid floating"
-                    src={require("assets/img/bmc/capa1.jpeg")}
+                    src={require("assets/img/bmc/trompetes.jpg")}
                   />
                 </Col>
                 <Col className="order-md-1" md="6">
                   <div className="pr-md-1">
-                    <h3>História</h3>
+                    <h3 className="mb-4">História</h3>
                     <p className="text-justify">
                       Fundada a 4 de Fevereiro de 1889 por escritura pública na residência paroquial de Carregosa, 
                       intitulada como "Philarmónica de Santa Cecília de Carregosa", teve como fundadores vários Carregosenses, 

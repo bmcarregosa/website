@@ -29,7 +29,7 @@ class Unready extends React.Component {
                 <span />
               </div>
               <Container className="py-lg-md d-flex pt-0">
-                    <img src={require("assets/img/bmc/capa2_cropped.jpeg")} width="100%"></img>
+                  <img src={require("assets/img/bmc/capa2_cropped.jpeg")} width="100%"></img>
               </Container>
               {/* SVG separator */}
               <div className="separator separator-bottom separator-skew">
@@ -56,7 +56,7 @@ class Unready extends React.Component {
                 <Col lg="12">
                   <section className="section section-lg pt-50">
                     <Container>
-                      <Card className="bg-gradient-warning shadow-lg border-0">
+                      <Card className="bg-gradient-primary shadow-lg border-0">
                         <div className="p-5">
                           <Row className="align-items-center">
                             <Col lg="8">

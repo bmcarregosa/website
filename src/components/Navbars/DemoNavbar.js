@@ -88,27 +88,27 @@ class DemoNavbar extends React.Component {
                 </div>
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
                 <NavLink to="/" tag={Link}>
-                    <i className="ni ni-collection d-lg-none mr-1" />
+                    <i className="fa fa-solid fa-music d-lg-none mr-1" />
                     A Banda
                   </NavLink>
                   <NavLink to="/maestro" tag={Link}>
-                    <i className="ni ni-collection d-lg-none mr-1" />
+                    <i className="fa fa-solid fa-compass d-lg-none mr-1" />
                     Maestro
                   </NavLink>
                   <NavLink to="/orgaos" tag={Link}>
-                    <i className="ni ni-collection d-lg-none mr-1" />
+                    <i className="fa fa-solid fa-user d-lg-none mr-1" />
                     Orgãos Sociais
                   </NavLink>
                   <NavLink to="/escola" tag={Link}>
-                    <i className="ni ni-collection d-lg-none mr-1" />
+                    <i className="fa fa-solid fa-graduation-cap d-lg-none mr-1" />
                     Escola de Música
                   </NavLink>
                   <NavLink to="/agenda" tag={Link}>
-                    <i className="ni ni-collection d-lg-none mr-1" />
+                    <i className="fa fa-solid fa-calendar d-lg-none mr-1" />
                     Agenda
                   </NavLink>
                   <NavLink to="/contactos" tag={Link}>
-                    <i className="ni ni-collection d-lg-none mr-1" />
+                    <i className="fa fa-solid fa-phone d-lg-none mr-1" />
                     Contactos
                   </NavLink>
                 </Nav>

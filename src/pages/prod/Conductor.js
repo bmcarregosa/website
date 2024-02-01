@@ -78,11 +78,7 @@ class Conductor extends React.Component {
                     <span className="font-weight-light">09/08/1985</span>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Maestro - Banda de Carregosa
-                    </div>
-                    <div>
-                      <i className="ni education_hat mr-2" />
-                      Escola Superior de Música e Artes do Espetáculo
+                      Maestro - Banda de Música de Carregosa
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-justify">
