@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.f126c43a.css",
-    "main.js": "/website/static/js/main.ce89f470.js",
+    "main.css": "/website/static/css/main.faef1839.css",
+    "main.js": "/website/static/js/main.427edd29.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/website/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/team-2-800x800.jpg": "/website/static/media/team-2-800x800.3e08ef145920c93bbe32.jpg",
     "static/media/img-1-1200x1000.jpg": "/website/static/media/img-1-1200x1000.df1442cf520034feb3b0.jpg",
@@ -19,9 +19,12 @@
     "static/media/ill-2.svg": "/website/static/media/ill-2.b82bc41ca8f27286779053cc2a544e93.svg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/website/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/icon_white_big.png": "/website/static/media/icon_white_big.0ec912769a4d24bf2937.png",
+    "static/media/capa1.jpeg": "/website/static/media/capa1.c9b71ca62498d3a3583c.jpeg",
+    "static/media/creativetim-white-slim.png": "/website/static/media/creativetim-white-slim.c9b2f68e52151075edf1.png",
     "static/media/promo-1.png": "/website/static/media/promo-1.f39d32d244fa5beabbaf.png",
     "static/media/slider.jpeg": "/website/static/media/slider.0e4fcbbe24eae99e8ff3.jpeg",
     "static/media/argon-react.png": "/website/static/media/argon-react.128d71d316a8e92aff4a.png",
+    "static/media/argon-react-white.png": "/website/static/media/argon-react-white.e4dd3b41697ada43fdcb.png",
     "static/media/maestro_1x1.jpg": "/website/static/media/maestro_1x1.791d9c89c15c120ce446.jpg",
     "static/media/nucleo-icons.eot": "/website/static/media/nucleo-icons.19abb5402a664606b14c.eot",
     "static/media/nucleo-icons.ttf": "/website/static/media/nucleo-icons.d6a66724e7a7bf1bba65.ttf",
@@ -30,11 +33,11 @@
     "static/media/google.svg": "/website/static/media/google.eae9aa9354350126d1b032847835a051.svg",
     "static/media/github.svg": "/website/static/media/github.6c95555646a0ecabf549179c97bf0e7d.svg",
     "index.html": "/website/index.html",
-    "main.f126c43a.css.map": "/website/static/css/main.f126c43a.css.map",
-    "main.ce89f470.js.map": "/website/static/js/main.ce89f470.js.map"
+    "main.faef1839.css.map": "/website/static/css/main.faef1839.css.map",
+    "main.427edd29.js.map": "/website/static/js/main.427edd29.js.map"
   },
   "entrypoints": [
-    "static/css/main.f126c43a.css",
-    "static/js/main.ce89f470.js"
+    "static/css/main.faef1839.css",
+    "static/js/main.427edd29.js"
   ]
 }
