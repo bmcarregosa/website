@@ -1,30 +1,9 @@
-/*!
-
-=========================================================
-* Argon Design System React - v1.1.2
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
-
-// reactstrap components
-import { Button, Card, Container, Row, Col } from "reactstrap";
-
-// core components
+import { Card, Container, Row, Col } from "reactstrap";
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
 
-class Profile extends React.Component {
+class Conductor extends React.Component {
   componentDidMount() {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
@@ -35,7 +14,7 @@ class Profile extends React.Component {
       <>
         <DemoNavbar />
         <main className="profile-page" ref="main">
-          <section className="section-profile-cover section-shaped my-0">
+          <section className="section-profile-cover section-shaped my-0" style={{height: "512px"}}>
             {/* Circles background */}
             <div className="shape shape-style-1 shape-default alpha-4">
               <span />
@@ -63,6 +42,7 @@ class Profile extends React.Component {
               </svg>
             </div>
           </section>
+          
           <section className="section">
             <Container>
               <Card className="card-profile shadow mt--300">
@@ -89,13 +69,13 @@ class Profile extends React.Component {
                   </Row>
                   <div className="text-center mt-9">
                     <h3>
-                      Valter Palma{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Valter Palma
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
                       Vila Real, Portugal
                     </div>
+                    <span className="font-weight-light">09/08/1985</span>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
                       Maestro - Banda de Carregosa
@@ -141,4 +121,4 @@ class Profile extends React.Component {
   }
 }
 
-export default Profile;
+export default Conductor;

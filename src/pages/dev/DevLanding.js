@@ -41,9 +41,9 @@ import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import CardsFooter from "components/Footers/CardsFooter.js";
 
 // index page sections
-import Download from "../IndexSections/Download.js";
+import Download from "../../components/ExampleSections/Download.js";
 
-class Landing extends React.Component {
+class DevLanding extends React.Component {
   state = {};
   componentDidMount() {
     document.documentElement.scrollTop = 0;
@@ -870,4 +870,4 @@ class Landing extends React.Component {
   }
 }
 
-export default Landing;
+export default DevLanding;

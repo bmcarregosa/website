@@ -52,7 +52,7 @@ class DemoNavbar extends React.Component {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand className="mr-lg-" to="/" tag={Link}>
+              <NavbarBrand to="/" tag={Link}>
                 <img
                   alt="..."
                   src={require("assets/img/bmc/icon_white_big.png")}
@@ -87,23 +87,27 @@ class DemoNavbar extends React.Component {
                   </Row>
                 </div>
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
-                  <NavLink to="/profile-page" tag={Link}>
+                <NavLink to="/" tag={Link}>
+                    <i className="ni ni-collection d-lg-none mr-1" />
+                    A Banda
+                  </NavLink>
+                  <NavLink to="/maestro" tag={Link}>
                     <i className="ni ni-collection d-lg-none mr-1" />
                     Maestro
                   </NavLink>
-                  <NavLink to="/profile-page" tag={Link}>
+                  <NavLink to="/orgaos" tag={Link}>
                     <i className="ni ni-collection d-lg-none mr-1" />
                     Orgãos Sociais
                   </NavLink>
-                  <NavLink to="/login-page" tag={Link}>
+                  <NavLink to="/escola" tag={Link}>
                     <i className="ni ni-collection d-lg-none mr-1" />
                     Escola de Música
                   </NavLink>
-                  <NavLink to="/register-page" tag={Link}>
+                  <NavLink to="/agenda" tag={Link}>
                     <i className="ni ni-collection d-lg-none mr-1" />
                     Agenda
                   </NavLink>
-                  <NavLink to="/register-page" tag={Link}>
+                  <NavLink to="/contactos" tag={Link}>
                     <i className="ni ni-collection d-lg-none mr-1" />
                     Contactos
                   </NavLink>
@@ -112,7 +116,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.facebook.com"
+                      href="https://www.facebook.com/bandacarregosa"
                       id="tooltip333589074"
                       target="_blank"
                     >
@@ -122,13 +126,13 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip333589074">
-                      Like us on Facebook
+                      Facebook
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.instagram.com"
+                      href="https://www.instagram.com/bandacarregosa/"
                       id="tooltip356693867"
                       target="_blank"
                     >
@@ -138,7 +142,23 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip356693867">
-                      Follow us on Instagram
+                      Instagram
+                    </UncontrolledTooltip>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                      className="nav-link-icon"
+                      href="https://www.youtube.com/@bandademusicacarregosa6988"
+                      id="tooltip356693867"
+                      target="_blank"
+                    >
+                      <i className="fa fa-youtube" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Youtube
+                      </span>
+                    </NavLink>
+                    <UncontrolledTooltip delay={0} target="tooltip356693867">
+                      Youtube
                     </UncontrolledTooltip>
                   </NavItem>
                 </Nav>

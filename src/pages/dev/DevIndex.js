@@ -2,28 +2,28 @@ import React from "react";
 import { Container, Row } from "reactstrap";
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import CardsFooter from "components/Footers/CardsFooter.js";
-import Hero from "./IndexSections/Hero.js";
-import Buttons from "./IndexSections/Buttons.js";
-import Inputs from "./IndexSections/Inputs.js";
-import CustomControls from "./IndexSections/CustomControls.js";
-import Menus from "./IndexSections/Menus.js";
-import Navbars from "./IndexSections/Navbars.js";
-import Tabs from "./IndexSections/Tabs.js";
-import Progress from "./IndexSections/Progress.js";
-import Pagination from "./IndexSections/Pagination.js";
-import Pills from "./IndexSections/Pills.js";
-import Labels from "./IndexSections/Labels.js";
-import Alerts from "./IndexSections/Alerts.js";
-import Typography from "./IndexSections/Typography.js";
-import Modals from "./IndexSections/Modals.js";
-import Datepicker from "./IndexSections/Datepicker.js";
-import TooltipPopover from "./IndexSections/TooltipPopover.js";
-import Carousel from "./IndexSections/Carousel.js";
-import Icons from "./IndexSections/Icons.js";
-import Login from "./IndexSections/Login.js";
-import Download from "./IndexSections/Download.js";
+import Hero from "../../components/ExampleSections/Hero.js";
+import Buttons from "../../components/ExampleSections/Buttons.js";
+import Inputs from "../../components/ExampleSections/Inputs.js";
+import CustomControls from "../../components/ExampleSections/CustomControls.js";
+import Menus from "../../components/ExampleSections/Menus.js";
+import Navbars from "../../components/ExampleSections/Navbars.js";
+import Tabs from "../../components/ExampleSections/Tabs.js";
+import Progress from "../../components/ExampleSections/Progress.js";
+import Pagination from "../../components/ExampleSections/Pagination.js";
+import Pills from "../../components/ExampleSections/Pills.js";
+import Labels from "../../components/ExampleSections/Labels.js";
+import Alerts from "../../components/ExampleSections/Alerts.js";
+import Typography from "../../components/ExampleSections/Typography.js";
+import Modals from "../../components/ExampleSections/Modals.js";
+import Datepicker from "../../components/ExampleSections/Datepicker.js";
+import TooltipPopover from "../../components/ExampleSections/TooltipPopover.js";
+import Carousel from "../../components/ExampleSections/Carousel.js";
+import Icons from "../../components/ExampleSections/Icons.js";
+import Login from "../../components/ExampleSections/Login.js";
+import Download from "../../components/ExampleSections/Download.js";
 
-class Index extends React.Component {
+class DevIndex extends React.Component {
   componentDidMount() {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
@@ -73,4 +73,4 @@ class Index extends React.Component {
   }
 }
 
-export default Index;
+export default DevIndex;
