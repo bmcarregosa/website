@@ -7,6 +7,7 @@ import "assets/scss/argon-design-system-react.scss?v1.1.0";
 import Landing from "pages/prod/Landing.js";
 import Conductor from "pages/prod/Conductor.js";
 import Contacts from "pages/prod/Contacts.js";
+import Schedule from "pages/prod/Schedule.js";
 import Unready from "pages/prod/Unready.js";
 import DevIndex from "pages/dev/DevIndex.js";
 import DevLanding from "pages/dev/DevLanding.js";
@@ -20,7 +21,7 @@ root.render(
       <Route path="/maestro" exact element={<Conductor />} />
       <Route path="/orgaos" exact element={<Unready />} />
       <Route path="/escola" exact element={<Unready />} />
-      <Route path="/agenda" exact element={<Unready />} />
+      <Route path="/agenda" exact element={<Schedule />} />
       <Route path="/contactos" exact element={<Contacts />} />
 
       <Route path="/dev/index" exact element={<DevIndex />} />

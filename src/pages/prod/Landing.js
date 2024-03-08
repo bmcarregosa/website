@@ -76,7 +76,6 @@ class Landing extends React.Component {
                           <Button
                             className="mt-4"
                             color="primary"
-                            href="#pablo"
                             onClick={() => window.location.href='/agenda'}
                           >
                             Saber mais
@@ -99,7 +98,6 @@ class Landing extends React.Component {
                           <Button
                             className="mt-4"
                             color="success"
-                            href="#pablo"
                             onClick={() => window.location.href='/escola'}
                           >
                             Saber mais
@@ -122,7 +120,6 @@ class Landing extends React.Component {
                           <Button
                             className="mt-4"
                             color="warning"
-                            href="#pablo"
                             onClick={() => window.location.href='/contactos'}
                           >
                             Saber mais

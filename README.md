@@ -1,3 +1,2 @@
 ## TODO
-* footer com patrocinadores.
-* mapa de festas.
+* footer com patrocinios.

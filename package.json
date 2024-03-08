@@ -1,7 +1,7 @@
 {
   "name": "bmc-website",
   "version": "1.0",
-  "homepage": "https://bmcarregosa.github.io/website",
+  "homepage": "https://bmcarregosa.github.io",
   "description": "Banda de Música de Carregosa",
   "main": "index.js",
   "keywords": [
