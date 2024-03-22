@@ -14,16 +14,19 @@ class Conductor extends React.Component {
       <>
         <DemoNavbar />
         <main className="profile-page" ref="main">
-          <section className="section-profile-cover section-shaped my-0" style={{height: "512px"}}>
+          <section className="section-profile-cover section-shaped my-0">
             {/* Circles background */}
             <div className="shape shape-style-1 shape-default alpha-4">
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
+              <span className="span-150" />
+              <span className="span-50" />
+              <span className="span-50" />
+              <span className="span-75" />
+              <span className="span-100" />
+              <span className="span-75" />
+              <span className="span-50" />
+              <span className="span-100" />
+              <span className="span-50" />
+              <span className="span-100" />
             </div>
             {/* SVG separator */}
             <div className="separator separator-bottom separator-skew">
@@ -45,7 +48,7 @@ class Conductor extends React.Component {
           
           <section className="section">
             <Container>
-              <Card className="card-profile shadow mt--300">
+              <Card className="card-profile shadow">
                 <div className="px-4">
                   <Row className="justify-content-center">
                     <Col className="order-lg-2" lg="3">

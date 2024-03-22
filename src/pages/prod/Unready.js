@@ -18,15 +18,16 @@ class Unready extends React.Component {
             {/* shape Hero */}
             <section className="section section-lg section-shaped pb-150">
               <div className="shape shape-style-1 shape-default">
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
+                <span className="span-150" />
+                <span className="span-50" />
+                <span className="span-50" />
+                <span className="span-75" />
+                <span className="span-100" />
+                <span className="span-75" />
+                <span className="span-50" />
+                <span className="span-100" />
+                <span className="span-50" />
+                <span className="span-100" />
               </div>
               <Container className="py-lg-md d-flex pt-0">
                   <img src={require("assets/img/bmc/capa2_cropped.jpeg")} width="100%"></img>

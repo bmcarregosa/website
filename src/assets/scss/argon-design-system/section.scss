@@ -489,15 +489,9 @@
 
 // Profile cover
 .section-profile-cover {
-    height: 580px;
+    height: 400px;
     background-size: cover;
     background-position: center center;
-}
-
-@include media-breakpoint-down(md) {
-    .section-profile-cover {
-        height: 400px;
-    }
 }
 
 // Components section (for demo)
@@ -546,26 +540,14 @@
     }
 }
 
+.margin-custom {
+    margin-top: -200px;
 
-/* .floating-cards {
-     perspective:1500px;
-     position:relative;
-     align-items:center
-}
+    @include media-breakpoint-down(md) {
+        margin-top: -160px;
+    }
 
-.floating-cards > div {
-     position:absolute;
-     -ms-flex-negative:0;
-     flex-shrink:0;
-     border-radius:8px;
-     overflow:hidden
+    @include media-breakpoint-down(sm) {
+        margin-top: -160px;
+    }
 }
-.floating-cards .shine {
-     position:absolute;
-     left:0;
-     right:0;
-     top:0;
-     bottom:0;
-     pointer-events:none
-}
-*/

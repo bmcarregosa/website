@@ -39,15 +39,16 @@ class Unready extends React.Component {
             {/* shape Hero */}
             <section className="section section-lg section-shaped pb-150">
               <div className="shape shape-style-1 shape-default">
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
+                <span className="span-150" />
+                <span className="span-50" />
+                <span className="span-50" />
+                <span className="span-75" />
+                <span className="span-100" />
+                <span className="span-75" />
+                <span className="span-50" />
+                <span className="span-100" />
+                <span className="span-50" />
+                <span className="span-100" />
               </div>
               <Container className="py-lg-md d-flex pt-0">
                   <img src={require("assets/img/bmc/capa2_cropped.jpeg")} width="100%"></img>
@@ -71,7 +72,7 @@ class Unready extends React.Component {
             </section>
           </div>
 
-          <section className="section section-lg pt-lg-100 mt--200">
+          <section className="section section-lg pt-lg-100 margin-custom">
             <Container>
               <Card className="card-profile shadow">
                 <div className="px-4">
@@ -84,11 +85,10 @@ class Unready extends React.Component {
                       Banda de Música de Carregosa
                     </div>
                   </div>
-                  <div className="mt-5 py-5 border-top">
-                    <table  style={{width: "100%"}}>
+                  <div className="mt-5 py-5 border-top ct-content">
+                    <table>
                       <thead>
                         <tr>
-                          <th>Tipo</th>
                           <th>Data</th>
                           <th>Evento</th>
                           <th>Local</th>
@@ -98,7 +98,6 @@ class Unready extends React.Component {
                       <tbody>
                         {data.map(row => (
                           <tr key={row.id}>
-                            <td>{row.tipo}</td>
                             <td>{row.data}</td>
                             <td>{row.evento}</td>
                             <td>{row.local}</td>

@@ -26,16 +26,21 @@ class Landing extends React.Component {
             {/* shape Hero */}
             <section className="section section-lg section-shaped pb-250">
               <div className="shape shape-style-1 shape-default">
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
+                <span className="span-150" />
+                <span className="span-50" />
+                <span className="span-50" />
+                <span className="span-75" />
+                <span className="span-100" />
+                <span className="span-75" />
+                <span className="span-50" />
+                <span className="span-100" />
+                <span className="span-50" />
+                <span className="span-100" />
               </div>
               <Container className="py-lg-md d-flex">
                   <img src={require("assets/img/bmc/capa2_cropped.jpeg")} width="100%"></img>
               </Container>
+              
               {/* SVG separator */}
               <div className="separator separator-bottom separator-skew">
                 <svg
@@ -56,7 +61,7 @@ class Landing extends React.Component {
             {/* 1st Hero Variation */}
           </div>
 
-          <section className="section section-lg pt-lg-0 pb-lg-5 mt--200">
+          <section className="section section-lg pt-lg-0 pb-lg-5 margin-custom">
             <Container>
               <Row className="justify-content-center">
                 <Col lg="12">
