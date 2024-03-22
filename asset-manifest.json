@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.e43d2139.css",
-    "main.js": "/website/static/js/main.1acceeba.js",
+    "main.css": "/website/static/css/main.b1a89429.css",
+    "main.js": "/website/static/js/main.b2e48378.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/website/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/team-2-800x800.jpg": "/website/static/media/team-2-800x800.3e08ef145920c93bbe32.jpg",
     "static/media/img-1-1200x1000.jpg": "/website/static/media/img-1-1200x1000.df1442cf520034feb3b0.jpg",
@@ -33,11 +33,11 @@
     "static/media/google.svg": "/website/static/media/google.eae9aa9354350126d1b032847835a051.svg",
     "static/media/github.svg": "/website/static/media/github.6c95555646a0ecabf549179c97bf0e7d.svg",
     "index.html": "/website/index.html",
-    "main.e43d2139.css.map": "/website/static/css/main.e43d2139.css.map",
-    "main.1acceeba.js.map": "/website/static/js/main.1acceeba.js.map"
+    "main.b1a89429.css.map": "/website/static/css/main.b1a89429.css.map",
+    "main.b2e48378.js.map": "/website/static/js/main.b2e48378.js.map"
   },
   "entrypoints": [
-    "static/css/main.e43d2139.css",
-    "static/js/main.1acceeba.js"
+    "static/css/main.b1a89429.css",
+    "static/js/main.b2e48378.js"
   ]
 }
