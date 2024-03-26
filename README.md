@@ -1,2 +1,0 @@
-## TODO
-* footer com patrocinios.
